@@ -36,7 +36,7 @@ export default {
         {
 
           name: 'description',
-          content: 'Description page of JIDUN' }
+          content: '极盾,极盾科技,极盾数科,极策平台,极策,数据安全运营与分析平台,数据运营平台,数据分析平台,数据治理平台,安全数据可视化平台' }
         ]
     }
   },
