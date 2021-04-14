@@ -1,7 +1,7 @@
 <template>
   <div id="item">
     <div id="title">
-      <h2>{{title}}</h2>
+      <strong><h2>{{title}}</h2></strong>
     </div>
     <div id="itemContent">
       <slot></slot>
