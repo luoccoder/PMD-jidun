@@ -22,8 +22,8 @@
   "devDependencies": {},
   "config": {
     "nuxt": {
-      "host": "10.10.13.107",
-      "port": 3000
+      "host": "127.0.0.1",
+      "port": 4000
     }
   }
 }

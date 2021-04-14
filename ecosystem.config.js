@@ -1,11 +1,20 @@
 module.exports = {
   apps: [
     {
-      name: 'mobile-official',
-      exec_mode: 'fork',
-      instances: '1', // Or a number of instances
-      script: './node_modules/nuxt/bin/nuxt.js',
-      args: 'start'
+      name: "official_m",
+      script: "./node_modules/nuxt/bin/nuxt.js",
+      watch: true,
+      exec_mode: "fork",
+      cwd: "",
+      args: "start",
+      env_development: {
+        PORT: 4000,
+        NODE_ENV: "development"
+      },
+      env_production: {
+        PORT: 9000,
+        NODE_ENV: "production"
+      }
     }
   ]
-}
+};
