@@ -41,12 +41,12 @@ export default {
       title: "极盾科技-技术支持",
       meta: [
         {
-          hid:'keywords',
+
           name: "keywords",
           content: "安全咨询,安全运营咨询,安全策略咨询,安全体系建设,安全策略建模,数据集成服务,三方数据源安全对接,安全业务系统对接服务"
         },
         {
-          hid: 'description',
+
           name: 'description',
           content: 'Technical support page of JIDUN' }
         ]

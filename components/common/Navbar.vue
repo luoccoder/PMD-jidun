@@ -66,7 +66,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   font-size: 0.35rem;
-
 }
 #logo{
   width: 120px;
