@@ -80,14 +80,28 @@ export default {
     sceneChange(a){
       this.sceneCurrentIndex=a
     },
-  }
+  },
+  head(){
+    return {
+      title: "极盾科技-解决方案",
+      meta: [
+        {
+          hid:'keywords',
+          name: "keywords",
+          content: "数据治理,打通数据孤岛,数据实时分析,事件关联,提升安全运营效率,量化企业数据指标,提升企业安全能力,降低安全部门人力成本,怎么组建企业安全部门,人员内控,人员风险管理,企业员工风控,企业员工风险管理"
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Solution page of JIDUN' }
+        ]
+    }
+  },
 }
 </script>
 
 <style scoped>
-.pImg{
 
-}
 .ant-divider{
   background-color:#F5F5F5 ;
   margin: 0;

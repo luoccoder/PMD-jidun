@@ -100,6 +100,22 @@ export default {
       this.$refs.perArousel.goTo(a);
     }
   },
+  head(){
+    return {
+      title: "极盾科技",
+      meta: [
+        {
+          hid:'keywords',
+          name: "keywords",
+          content: "极盾,极盾科技,极盾数科,极策平台,极策,SIEM,SOC,SOAR,安全平台,安全分析,安全决策,数据中台,决策引擎,机器学习平台,安全分析平台,人员内控,员工风控,安全日志,数据资产化,威胁情报,数据保护,合规隐私保护,安全攻防,安全检测,威胁感知,态势感知"
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Index page of JIDUN' }
+        ]
+    }
+  },
 }
 </script>
 <style>
