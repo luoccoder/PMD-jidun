@@ -52,19 +52,18 @@ h2{
 }
 ul{
   margin: 0 auto;
-  width: 95%;
+  width: 96%;
   text-align: center;
-  margin-left: 0.32rem;
-  padding-left: 10px;
+  padding-left: 0.32rem;
 }
 li{
   float: left;
-  width: 45%;
+  width: calc((100%-0.64rem)/2);
   padding-top: 15px;
   font-size: 0.37rem;
   box-shadow: rgb(226,227,230,0.2) 0 5px 15px 0;
   border: 1px solid rgba(30,34,45,0.05);
-  margin-right: 16px;
+  margin-right: 0.32rem;
   margin-bottom: 15px;
   text-align: center;
   display: flex;
