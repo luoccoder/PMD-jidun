@@ -40,7 +40,7 @@ export default {
           content: 'Description page of JIDUN' }
         ]
     }
- },
+  },
 }
 </script>
 
