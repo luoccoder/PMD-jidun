@@ -30,13 +30,13 @@ h2{
   font-size: 0.6rem;
   font-weight: bold;
   margin-top:20px;
-  margin-bottom:18px;
+  margin-bottom:30px;
 }
 #title{
   text-align: center;
 }
 #item{
-  margin-top: 80px;
+  margin-top: 55px;
 }
 #itemContent{
   margin: 0 18px 30px 18px;

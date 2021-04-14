@@ -36,7 +36,7 @@ h2{
   font-size: 0.6rem;
   font-weight: bold;
   margin-top:20px;
-  margin-bottom:18px;
+  margin-bottom:40px;
 }
 #title{
   text-align: center;

@@ -16,7 +16,7 @@
     </CommonCItem>
 
     <CommonHItem :title='"核心优势"'>
-      <a-carousel autoplay :autoplaySpeed='5000' dots='false' :after-change="advChange">
+      <a-carousel ref="advArousel" autoplay :autoplaySpeed='5000' dots='false' :after-change="advChange">
         <div class="adv" v-for="(item,index) in advArticles" :key="index">
           <img class="scarouselImg" :src="item.imgUrl">
           <h3>{{item.log}}</h3>
@@ -53,8 +53,8 @@
       </div>
     </CommonHItem>
 
-    <CommonHItem :title='"性能优异，可高用性"'>
-      <a-carousel autoplay :autoplaySpeed='5000' dots='false' :after-change="perfChange">
+    <CommonHItem :title='"性能优异，高可用性"'>
+      <a-carousel ref="perArousel"  autoplay :autoplaySpeed='5000' dots='false' :after-change="perfChange">
         <div class="per" v-for="(item,index) in perArticles" :key="index">
           <img class="pcarouselImg" :src="item.imgUrl">
           <h3>{{item.log}}</h3>
@@ -92,10 +92,12 @@ export default {
       this.$router.push('/strategies');
     },
     advChange(a){
-      this.advCurrentIndex=a
+      this.advCurrentIndex=a;
+      this.$refs.advArousel.goTo(a);
     },
     perfChange(a){
       this.perCurrentIndex=a
+      this.$refs.perArousel.goTo(a);
     }
   },
 }
@@ -199,6 +201,7 @@ export default {
   background-repeat: no-repeat;
   background-image: url('../assets/img/index/productionBack.png');
   padding: 64px 25px 64px 25px;
+  margin-top: -1rem;
 }
 #production p{
   color: #FFFFFF;

@@ -41,8 +41,6 @@ h2{
 #itemContent{
   margin: 0 18px 30px 18px;
   box-shadow: rgb(226,227,230,0.2) 0 5px 15px 0;
-  border-top: 1px solid rgba(30,34,45,0.05);
-  border-left: 1px solid rgba(30,34,45,0.05);
-  border-right: 1px solid rgba(30,34,45,0.05);
+
 }
 </style>

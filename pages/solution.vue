@@ -32,7 +32,7 @@
           <li><img class="pImg" :src="item.imgUrl"><p>{{item.content}}</p></li>
         </ul>
         <a-divider v-if="index!=3" />
-        <div id="spaceEnd" v-if="index==3">
+        <!-- <div id="spaceEnd" v-if="index==3"> -->
       </div>
     </CommonHItem>
 
@@ -86,7 +86,7 @@ export default {
 
 <style scoped>
 .pImg{
-  margin-right: 10px
+
 }
 .ant-divider{
   background-color:#F5F5F5 ;
@@ -162,34 +162,29 @@ h2{
   margin-bottom: -90px;
 }
 .profit{
-  padding: 20px;
   width: 102%;
-  margin-bottom: -20px;
-  margin-top: 20px;
   position: relative;
   right: 0.08rem;
+  padding: 20px 15px 0 15px;
 }
 .profit ul li img{
   width: 38px;
-  margin-right: 10px;
   position: relative;
-  bottom: 0.3rem;
+  bottom: 0.17rem;
 }
 .profit ul {
   display: flex;
   justify-content: space-between;
 }
 .profit li {
-  height: 1.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .profit ul li p {
-  width: 6.91rem;
-  height: 1.1rem;
+  width: 100%;
   font-size: 0.35rem;
-  margin-left: -0.18rem;
+  margin-left: 15px;
 }
 .scarouselImg{
   width: 95%;

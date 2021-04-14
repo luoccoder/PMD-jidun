@@ -15,11 +15,11 @@
         </ul>
 
         <a-divider v-if="index!=5" />
-        <div id="spaceEnd" v-if="index==5"></div>
+        <!-- <div id="spaceEnd" v-if="index==5"></div> -->
       </div>
     </CommonHItem>
 
-    <CommonHItem :title='"我们的服务流程"' />
+    <CommonTItem :title='"我们的服务流程"' />
     <div id="supportMian">
       <img id="serviceDesc" src="../assets/img/support/serviceDesc.png">
       <SupportTimeline />
@@ -56,6 +56,7 @@ export default {
   justify-content: center;
   align-items: center;
   margin-bottom: -3rem;
+
 }
 #serviceDesc{
   width: 80%;
@@ -91,13 +92,11 @@ h2{
   font-weight:normal
 }
 .profit{
-  padding: 20px;
-  margin-top: 25px;
-  margin-bottom: -25px;
+  padding: 30px 15px 0 15px;
 }
 .profit ul li img{
   width: 38px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .profit ul{
   display: flex;
@@ -105,9 +104,9 @@ h2{
   align-items: center;
 }
 .profit ul li p {
-  width: calc(100%-48px);
-  margin-left: 48px;
-  margin-top: -0.15rem;
+  width: calc(100%-53px);
+  margin-left: 53px;
+  margin-top: -0.4rem;
   font-size: 0.35rem;
   line-height: 0.80rem;
 }

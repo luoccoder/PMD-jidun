@@ -49,24 +49,23 @@ export default {
   display: flex;
   color: #ffffff94;
   font-size: 0.32rem;
+  margin-top:0.3rem;
   justify-content: space-between;
   align-items: center;
 }
 #footerLogo{
   width: 2.5rem;
   position: relative;
-  bottom: 0.42rem;
   right: 3.27rem;
-  margin-top: 64px;
+  margin-top: 0.4rem;
 }
 #codeImg{
   width: 2rem;
   position: relative;
-
 }
 #connect{
-  margin-top: 0.8rem;
-  margin-bottom: 0.65rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
   background-color: #0CA06C;
   border-radius: 8px;
   padding: 0.14rem;
@@ -85,16 +84,14 @@ export default {
   width: 0.35rem;
 }
 #certificate img{
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.9rem;
   width: 100%;
 }
 #copy{
   color: #ffffff94;
   font-size: 12px;
   text-align: center;
-  margin-top: 0.6rem;
   margin-left: 0.33rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 </style>

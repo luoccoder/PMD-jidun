@@ -8,13 +8,13 @@ export function getPerArticles(){
       key:1,
       imgUrl:per1,
       log:'高吞吐',
-      content: "单节点日志量分析处理性能可达千万级别集群部署可达亿级别以上。"
+      content: "单节点日志量分析处理性能可达千万级别集群部署可达亿级别以上"
     },
     {
       key:2,
       imgUrl:per2,
       log:'高可靠',
-      content: "产品底层组件均采用分布式设计，确保分布式集群7*24小时稳定运行。"
+      content: "产品底层组件均采用分布式设计，确保分布式集群7*24小时稳定运行"
     },
     {
       key:3,
