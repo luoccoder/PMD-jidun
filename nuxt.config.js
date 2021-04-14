@@ -13,7 +13,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script:[
-      {src:'http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js'}
+      {src:'/js/flexible.js',type:'text/javascript',charset:'utf-8'}
     ]
   },
 

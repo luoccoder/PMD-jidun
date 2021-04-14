@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
+    "amfe-flexible": "^2.2.1",
     "ant-design-vue": "^1.7.4",
     "core-js": "^3.9.1",
     "less": "^4.1.1",
@@ -19,11 +20,5 @@
     "nuxt": "^2.15.3",
     "postcss-pxtorem": "^6.0.0"
   },
-  "devDependencies": {},
-  "config": {
-    "nuxt": {
-      "host": "10.10.13.107",
-      "port": 3000
-    }
-  }
+  "devDependencies": {}
 }
